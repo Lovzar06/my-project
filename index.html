@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox</title>
+    <style>
+      .flex-container {
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap:10px;
+        flex-wrap: wrap;
+ /* flex-wrap wird verwendet, um zu steuern, wie Flex-Elemente in einem 
+        Flex-Container angezeigt und umbrochen werden, wenn sie nicht auf eine einzelne Zeile passen. */
+      }
+      .flex-item {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(10, 140, 184);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item" >box1</div>
+      <div class="flex-item">box2</div>
+      <div class="flex-item">box3</div>
+    </div>
+  </body>
+</html>
