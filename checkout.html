@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="source/styles/style.css"> <!-- Deine CSS-Datei -->
+</head>
+<body class="lol">
+  <div class="container montainer">
+    
+    <form id="checkoutForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      
+      <label for="address">Adresse:</label>
+      <textarea id="address" name="address" required></textarea><br><br>
+      
+      <label for="phone">Telefonnummer:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <div class="summary">
+        <h2>Warenkorbübersicht</h2>
+        <p id="totalPrice">Gesamtsumme: €0.00</p>
+      </div>
+
+      <button type="submit" id="checkoutButton">Bestellung abschließen</button>
+    </form>
+
+    <div class="buttons">
+      <a href="korb.html">Zurück zum Warenkorb</a>
+    </div>
+  </div>
+
+  <script src="checkout.js"></script> <!-- Deine JavaScript-Datei -->
+</body>
+</html>

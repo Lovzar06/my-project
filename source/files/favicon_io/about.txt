@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Oleo Script Swash Caps
+- Font Author: Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'
+- Font Source: http://fonts.gstatic.com/s/oleoscriptswashcaps/v13/Noaj6Vb-w5SFbTTAsZP_7JkCS08K-jCzDn_HMXquSY0Hg90.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

@@ -1,0 +1,28 @@
+.center-alert{
+  color: yellow;
+}
+
+.center-alert {
+  font-family: Oleo, serif;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  padding: 5px;
+  border: 5px solid #ccc;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+h1{
+  font-family: Oleo, serif;
+  margin-top: 25px;
+  color: yellow;
+}
+
+p{
+  margin:0;
+  padding: 0;
+}
+

@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita",
+    "description": "<ul><li>Mozzarella</li><li>Tomatensoße</li><li>Basilikum</li></ul>",
+    "oldPrice": 8.99,
+    "price": 6.99,
+    "image": "./source/images/Margherita-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 2,
+    "name": "Marinara",
+    "description": "<ul><li>Knoblauch</li><li>Pomodoro</li><li>Oregano</li></ul>",
+    "oldPrice": 12.99,
+    "price": 8.99,
+    "image": "./source/images/Marinara-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 3,
+    "name": "Neapolitan",
+    "description": "<ul><li>Tomatensoße</li><li>Mozzarella-Käse</li><li>Basilikum</li></ul>",
+    "oldPrice": 9.99,
+    "price": 5.99,
+    "image": "./source/images/Neapolitan-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 4,
+    "name": "Chicago Deep",
+    "description": "<ul><li>Rinderhack</li><li>Tomatensoße</li><li>Mozzarella-Käse</li></ul>",
+    "oldPrice": 11.99,
+    "price": 7.99,
+    "image": "./source/images/Chicago-Deep-dish-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 5,
+    "name": "Bresaola",
+    "description": "<ul><li>Bresaola</li><li>Pecorino</li><li>Rindfleisch</li></ul>",
+    "oldPrice": 8.99,
+    "price": 5.99,
+    "image": "./source/images/Bresaola-2-1024x1024.png"
+
+  },
+  {
+    "id": 6,
+    "name": "Bagel",
+    "description": "<ul><li>Käse</li><li>Kruste</li><li>Basilikum</li></ul>",
+    "oldPrice": 7.99,
+    "price": 4.99,
+    "image": "./source/images/Bagel-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 7,
+    "name": "Chorizo",
+    "description": "<ul><li>Salami</li><li>Tomatensoße</li><li>Mozzarella-Käse</li></ul>",
+    "oldPrice": 8.99,
+    "price": 8.99,
+    "image": "./source/images/Chorizo-Pizza-1024x1024.png"
+
+  },
+  {
+    "id": 8,
+    "name": "Dessert Pizza",
+    "description": "<ul><li>Nutella</li><li>Nüsse</li><li>Früchte</li></ul>",
+    "oldPrice": 7.99,
+    "price": 5.99,
+    "image": "./source/images/Dessert-Pizza-2-1024x1024.png"
+
+  },
+  {
+    "id": 9,
+    "name": "Fruhstucks Pizza",
+    "description": "<ul><li>Eier</li><li>Tomatensoße</li><li>Wurst</li></ul>",
+    "oldPrice": 8.99,
+    "price": 7.99,
+    "image": "./source/images/Fruhstucks-Pizza-1024x1024.png"
+
+  }
+]

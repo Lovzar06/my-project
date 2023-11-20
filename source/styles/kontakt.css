@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+body{
+	font-size: 22px;
+  font-family: Oleo , serif;
+  background: linear-gradient(90deg, #000000 0%, #535151 100%);
+}
+
+
+p{
+	font-family: Oleo, serif;
+  color: aquamarine;
+  font-size: 22px;
+  text-shadow: 5px 0 15px rgb(2, 2, 2), 0 0 15px rgb(7, 7, 7);
+}
+
+.dropdown-item{
+	font-size: 24px;
+}
+
+.card{
+  background: linear-gradient(200deg, #000000 0%, #535151 100%);
+}
+
+.btn-outline-success, 
+.nav-link, 
+.navbar-brand{
+  color: aquamarine;
+}
+
+.navbar-nav .nav-link.active{
+  color: antiquewhite;
+}
+
+.navbar-brand img{
+  width: 40px;
+
+}
+
+.navbar-toggler{
+  background-color: antiquewhite;
+}
+
+.card-text{
+  color: aquamarine;
+}
+
+footer{
+	background: linear-gradient(90deg, #181616 0%, #0e0b0b 100%);
+	
+}
+
+.call-animated{
+  animation: call 3s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+.margin{
+  margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.footer-text {
+  color: aquamarine;
+  margin: auto;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	margin-bottom: 25px;
+	
+}
+
+.text-center{
+	display: flex;
+  justify-content:center;
+	align-items: center;
+   
+}
+
+a {
+  text-decoration: none;
+}
+
+a{
+  color: aquamarine;
+}
+
+header .iconCart{
+  position: relative;
+  z-index: 1;
+}
+
+header .totalQuantity{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size:x-large;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(20px);
+
+
+}
+
+.container{
+  width: 1200px;
+  margin: auto;
+  max-width: 90%;
+  transition: transform 1s;
+}
+
+header .iconCart img{
+  position: relative;
+  top: 10px;
+  width: 30px;
+}
+
+header div li .kontakt{
+  margin-left: 20px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./source/styles/korb.css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Korb</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li>
+            <a class="home" aria-current="page" href="index.html">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="pricing.html">Preis</a>
+          </li>
+          <li class="nav-item">
+            <a href="kontakt.html">Kontakt</a>
+          </li> -->
+          <li class="iconCart">
+            <a href="korb.html"><img src="./source/files/favicon_io/carts.png" alt="korb-img"></a>
+            <div class="totalQuantity">0</div>
+          </li>
+        </ul>
+
+
+      </nav>
+    </header>
+
+    <div class="listProduct">
+      <div class="item">
+        <img src="source/images/Margherita-Pizza-1024x1024.png">
+        <h2>Margherita</h2>
+        <div class="price">6,99€</div>
+        <button>In den Warenkorb</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="cart">
+    <h2>Warenkorb</h2>
+    <div class="listCart">
+      <div class="item">
+       <!--  <img src="./source/images/Margherita-Pizza-1024x1024.png">
+        <div class="content">
+          <div class="name">
+            Produkt
+          </div>
+          <div class="description">
+            <ul></ul>
+
+          </div>
+          <div class="price">
+            6,99€
+          </div>
+        </div>
+
+        <div class="quantity">
+          <button class="minus">-</button>
+          <span class="value"></span>
+          <button class="plus">+</button>
+        </div> -->
+
+      </div>
+    </div>
+    <div class="buttons">
+      <button onclick="clearCart()">Warenkorb leeren</button>
+      
+      <div class="checkout">
+        <a href="checkout.html">
+          Kaufen
+        </a>
+        
+      </div>
+      <div class="close">Schliesen</div>
+      
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="./source/js/korb.js"></script>
+</body>
+
+</html>
